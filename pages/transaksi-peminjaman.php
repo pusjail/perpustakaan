@@ -92,7 +92,7 @@
 				<div class="btn-group-md">   
 					<a target="_blank" href="pages/cetak-info-transaksi-peminjaman.php?id=<?php echo $r_tampil_transaksi['idtransaksi'];?>" class="badge badge-info"><i class="fas fa-book"></i> Cetak Info Transaksi</a><br>
 					<a href="index.php?p=transaksi-edit-peminjaman&id=<?php echo $r_tampil_transaksi['idtransaksi'];?>" class="badge badge-warning"><i class="fas fa-edit"></i> Edit</a><br>
-					<a href="proses/transaksi-hapus.php?id=<?php echo $r_tampil_transaksi['idtransaksi']; ?>" onclick = "return confirm ('Apakah Anda Yakin Akan Menghapus Data Ini?')" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a>
+					<a href="proses/transaksi-peminjaman-hapus.php?id=<?php echo $r_tampil_transaksi['idtransaksi']; ?>" onclick = "return confirm ('Apakah Anda Yakin Akan Menghapus Data Ini?')" class="badge badge-danger"><i class="fas fa-trash"></i> Hapus</a>
 				</div>
 			</td>			
 		</tr>		
